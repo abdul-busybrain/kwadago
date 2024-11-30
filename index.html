@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Adding meta description -->
+    <meta
+      name="description"
+      content="Kwadago is an AI-powered job application platform that will match you the best job based on your preferences. It's tailored to your personal profile and skills "
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- adding favicons -->
+    <link rel="icon" href="./img/favicon.png" />
+
+    <!-- for iphone -->
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
+
+    <!-- for android -->
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+
+    <title>Kwadago &mdash; Apply once and get employed</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/">
+        <img src="./img/omnifood-logo.png" alt="Kwadago-logo" class="logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Jobs</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Your Career Journey Starts Here</h1>
+            <p class="hero-description">
+              Connect with Opportunities, Transform Your Professional Path.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Start your application</a
+            >
+            <a href="#how" class="btn btn--outline">Learn more &rarr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img
+                  src="./img/customers/customer-1.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="./img/customers/customer-2.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="./img/customers/customer-3.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="./img/customers/customer-4.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="./img/customers/customer-5.jpg"
+                  alt="Customer photo"
+                />
+                <img
+                  src="./img/customers/customer-6.jpg"
+                  alt="Customer photo"
+                />
+              </div>
+              <p class="delivered-text">
+                <span> 10,000+</span> Job Listings Across Industries
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="./hero.jpg" type="image/jpg" />
+              <source srcset="./hero.jpg" type="image/jpg" />
+
+              <img
+                src="./hero.jpg"
+                alt="Woman enjoying food, meals in strorage container, and food bowls on a table"
+                class="hero-img"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img src="./img/logos/techcrunch.png" alt="techcrunch logo" />
+            <img
+              src="./img/logos/business-insider.png"
+              alt="business-insider logo"
+            />
+            <img
+              src="./img/logos/the-new-york-times.png"
+              alt="the-new-york-times logo"
+            />
+            <img src="./img/logos/forbes.png" alt="forbes logo" />
+            <img src="./img/logos/usa-today.png" alt="usa-today logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">
+            Land Your Dream Job in 3 Simple Steps
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Create Your Profile</h3>
+            <p class="step-description">
+              Upload resume, Set career preferences, Let our AI understand your
+              skills
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="./img/app/app-screen-1.png"
+              alt="iPhone app preferences screen"
+              class="step-img"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="./img/app/app-screen-2.png"
+              alt="Meal approving plan screen"
+              class="step-img"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Get Matched</h3>
+            <p class="step-description">
+              Receive personalized job recommendations, See alignment percentage
+              with each role, Customize and refine matches.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Apply & Track</h3>
+            <p class="step-description">
+              One-click applications, Real-time application status, Interview
+              preparation resources
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="./img/app/app-screen-3.png"
+              alt="Delivery screen"
+              class="step-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">
+            Kwadago AI searches from 5,000+ companies all over Nigeria
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="./img/meals/meal-1.jpg"
+              alt="Japanese Gyozas"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span> <strong> 650</strong> Calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span> <strong>4.9</strong> Rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="./img/meals/meal-2.jpg"
+              alt="Avocado Salad"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Vegan</span>
+                <span class="tag tag--paleo">Paleo</span>
+              </div>
+              <p class="meal-title">Avocado Salad</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span> <strong> 400</strong> Calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>92</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span> <strong>4.8</strong> Rating (441)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Explore Opportunities By</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Technology</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Finance</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Healthcare</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Marketing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Design</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Sales</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Engineering</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Customer Support</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Remote Roles</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Entry-Level Positions</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#" class="link">See all job listings &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                src="./img/customers/dave.jpg"
+                alt="photo of Customer dave Bryson"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                Intuitive, fast, and incredibly accurate job recommendations. .
+              </blockquote>
+              <p class="testimonial-name">
+                &mdash; Michael Roberts, Data Scientist
+              </p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="./img/customers/ben.jpg"
+                alt="photo of Customer Ben Hadley"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                Saved me hours of manual searching and application tracking!
+              </blockquote>
+              <p class="testimonial-name">
+                &mdash; Emily Wong, Marketing Specialist
+              </p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                src="./img/customers/steve.jpg"
+                alt="photo of Customer Steve Miller"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                This platform revolutionized my job search. Matched me perfectly
+                with my dream role!
+              </blockquote>
+              <p class="testimonial-name">
+                &mdash; Sarah Chen, Product Manager
+              </p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                src="./img/customers/hannah.jpg"
+                alt="photo of Hannah Smith"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                I got Kwadago for the whole family, and it frees up so much
+                time! Plus, everything is organic and vegan and without plastic.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Hannah Smith</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-1.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-2.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-3.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-4.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-5.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-6.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-7.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-8.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-9.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-10.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-11.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="./img/gallery/gallery-12.jpg"
+              alt="Photo of Beautifully arranged food"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container center-text">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Job application without breaking a sweat
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>N</span>6000</p>
+              <p class="plan-text">per month. That's just N500 every month!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Limited Job Recommendations </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Basic Profile Creation </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Application Tracking</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Start your application</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Complete</p>
+              <p class="plan-price"><span>N</span>12,000</p>
+              <p class="plan-text">per month. That's just N1,000 evey month!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span><strong>Unlimited</strong> Job Applications </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Advanced <strong>AI Matching</strong> </span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Interview Coaching</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Resume Review</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Priority Support</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Start your application</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"> </ion-icon>
+            <p class="feature-title">Apply once</p>
+            <p class="feature-text">
+              Our subscriptions cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"> </ion-icon>
+            <p class="feature-title">All over Nigeria</p>
+            <p class="feature-text">
+              Our algorithm is trained to search for Job vacancies all over the
+              nation
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"> </ion-icon>
+            <p class="feature-title">Mentorship</p>
+            <p class="feature-text">
+              All our partners make sure they give you proper guidance toward
+              your career, while been placed on their organizations.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"> </ion-icon>
+            <p class="feature-title">Pause anytime</p>
+            <p class="feature-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first meal for free</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full name:</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email address:</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Where did you hear form us</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="ad">Teburin Mai Shayi</option>
+                    <option value="podcast">Radio</option>
+                    <option value="friends">Family & Friends</option>
+                    <option value="youtube">Youtube Video</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="other">Others</option>
+                  </select>
+                </div>
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--5-cols grid--footer">
+        <div class="logo-col">
+          <a href="/" class="footer-logo">
+            <img
+              src="./img/omnifood-logo.png"
+              alt="Kwadago-logo"
+              class="logo"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2024 by Kwadago, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact Us</p>
+          <address class="contacts">
+            <p class="address">No 247 One phone call away from you.</p>
+            <p>
+              <a class="footer-link" href="tel:+234-801-2345-678"
+                >+234-801-2345-678</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@kwadago.com"
+                >hello@kwadago.com</a
+              >
+            </p>
+            <p></p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Kwadago</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Recruiting partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Job Listings</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- ionicons script -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="./js/script.js"></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+  </body>
+</html>
